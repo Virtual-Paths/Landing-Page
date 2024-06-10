@@ -6,11 +6,11 @@ previa de los productos en venta.
 
 Autores:
 --------
-Caicedo Salvador, Fabrizio Michell - U20211g109
-Quinto Bolívar, Ismael Ibai - U20221A342
-Simón Calderón, Ismael Sebastian - U201823468
-Torres Flores, Paolo Alessandro - U20221f613
-Yauri Chocce, Renato - U202317566
+Caicedo Salvador, Fabrizio Michell
+Quinto Bolívar, Ismael Ibai 
+Simón Calderón, Ismael Sebastian 
+Torres Flores, Paolo Alessandro 
+Yauri Chocce, Renato
 
 Segmentos objetivo:
 ------------------
