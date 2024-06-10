@@ -6,10 +6,10 @@ previa de los productos en venta.
 
 Autores:
 --------
-Caicedo Salvador, Fabrizio Michell
-Quinto Bolívar, Ismael Ibai 
-Simón Calderón, Ismael Sebastian 
-Torres Flores, Paolo Alessandro 
+Caicedo Salvador, Fabrizio Michell -
+Quinto Bolívar, Ismael Ibai - 
+Simón Calderón, Ismael Sebastian -
+Torres Flores, Paolo Alessandro -
 Yauri Chocce, Renato
 
 Segmentos objetivo:
