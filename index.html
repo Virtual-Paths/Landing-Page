@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop 360</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+    </style>
+</head>
+<body>
+    <!--Navigation menu-->
+    <header id="main-header">
+        <p class="title">Una experiencia envolvente</p>
+        <nav id="main-nav">
+            <ul class="nav-list">
+                <li><a href="login.html">Inicio Sesión</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <!--Banner-->
+    <section id="main">
+        <div class="content">
+            <h1>Shop 360</h1>
+            <p>¡Una nueva manera de ver el mercado!</p>
+            <div class="buttons">
+                <button onclick="window.location.href = 'demo.html';">Demo VR</button>
+                <button onclick="window.location.href = 'para_ti.html';">Para ti</button>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="images/vr3.png" alt="VR Set">
+        </div>
+    </section>
+
+    <!--AQUI PONER SERVICIOS-->
+    <section class = "servicios" id="servicios">
+        <h1>Servicios</h1>     
+
+        <div id="cont">
+            <div>
+                <img src="images/buscar.png" alt="Buscar">
+                <h2>Buscar</h2>   
+            </div>
+                
+            <div>
+                <img src="images/publicitar.png" alt="Publicitar">
+                <h2>Publicitar</h2>    
+            </div>
+        </div>   
+
+        <div class="image-containerServicios">
+            <img src="images/ima.png" alt="Servicios" class="large-image"> 
+        </div>
+
+        <div class="text-centered">
+            <p><br><br>Nuestra aplicación Shop 360 permite a los comerciantes promocionarse<br> 
+            y mostrar todos sus productos para así aumentar la comunidad de <br>
+            consumidores. Lo novedoso de esta app es que implementamos un <br>
+            software de realidad virtual (RV) para darle al interesado una guía de <br>
+            cómo llegar al local y brindarles a través de un bot una serie de <br> 
+            preguntas frecuentes.</p>
+        </div>
+    </section>
+
+    
+    <section class="contacto" id = "contacto">
+        <div class="contenedor">
+            <h2>Contacto</h2>
+            <p>Ingrese sus datos y su mensaje para poder comunicarnos con usted!</p><br>
+            <form action="" class="form">
+                <input type="text" name="" id="" placeholder="Ingresar nombre" class="input">
+                <input type="email" name="" id="" placeholder="Ingrese correo electrónico" class="input">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Ingresar mensaje" class="input"></textarea>
+                <input type="submit" value="Enviar" class="input">
+            </form>
+        </div>
+    
+    </section>
+
+    <!-- Sección de video -->
+    <section class="videos" id="videos">
+        <h2>Videos</h2>
+        <div class="video-container">
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/hhDLdOEUfv0" frameborder="0" allowfullscreen></iframe>
+                <p>Video about the product</p>
+            </div>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/p4IUQh8cHEI" frameborder="0" allowfullscreen></iframe>
+                <p>Video about the team</p>
+            </div>
+        </div>
+    </section>
+
+    <!--vincular javascprit-->
+
+    <script src = "js/menu.js"> </script>
+</body>
+
+</html>
