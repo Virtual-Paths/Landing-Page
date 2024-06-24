@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Tienda Virtual en XR</title>
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+<body>
+  <a-scene>
+    <!-- Cámara para navegación -->
+    <a-entity camera position="0 1.6 0" look-controls></a-entity>
+
+    <!-- Piso -->
+    <a-plane rotation="-90 0 0" width="20" height="20" color="#7BC8A4"></a-plane>
+
+    <!-- Producto 1 -->
+    <a-box id="product1" position="-2 1 -3" rotation="0 45 0" color="#4CC3D9" depth="0.5" height="1" width="0.5" class="clickable"></a-box>
+    <a-text value="Camiseta azul: S/100" position="-2 2 -3" width="4"></a-text>
+
+    <!-- Producto 2 -->
+    <a-box id="product2" position="0 1 -3" rotation="0 45 0" color="#FFC65D" depth="0.5" height="1" width="0.5" class="clickable"></a-box>
+    <a-text value="Gorro amarillo: S/150" position="0 2 -3" width="4"></a-text>
+
+    <!-- Producto 3 -->
+    <a-box id="product3" position="2 1 -3" rotation="0 45 0" color="#7BC8A4" depth="0.5" height="1" width="0.5" class="clickable"></a-box>
+    <a-text value="Pantalon verde: S/200" position="2 2 -3" width="4"></a-text>
+
+    <!-- Cursor para interacciones -->
+    <a-entity cursor="rayOrigin: mouse" raycaster="objects: .clickable" position="0 1.6 0" geometry="primitive: ring" material="color: black; shader: flat"></a-entity>
+     <!-- Botón para volver al index -->
+     <a-entity
+     geometry="primitive: plane; width: 1; height: 0.5"
+     material="color: #333"
+     position="-4.5 0.25 -3"
+     text="value: Volver; align: center; color: white; width: 2"
+     class="clickable"
+     onclick="window.location.href = 'index.html';">
+   </a-entity>
+  </a-scene>
+
+  <script>
+    document.querySelector('#product1').addEventListener('click', function () {
+      alert('Camiseta azul seleccionado. Precio: S/100');
+    });
+
+    document.querySelector('#product2').addEventListener('click', function () {
+      alert('Gorro amarillo seleccionado. Precio: S/150');
+    });
+
+    document.querySelector('#product3').addEventListener('click', function () {
+      alert('Pantalon verde seleccionado. Precio: S/200');
+    });
+  </script>
+</body>
+</html>
